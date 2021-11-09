@@ -1,0 +1,59 @@
+
+
+/*Colors*/
+
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.titular {
+    font-weight: 600;
+}
+
+.primario {
+    color:hsl(171, 66%, 44%);
+}
+
+.primarioDos {
+    color: hsl(233, 100%, 69%);
+}
+
+.colorTexto {
+    color: hsl(210, 10%, 33%);
+}
+
+.colorTextoDos {
+    color:hsl(201, 11%, 66%);
+}
+
+.textoBody {
+    font-size: 18px;
+}
+
+#hero {
+    background-image: url(images/bg-header-desktop.png);
+    height: 60vh;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-top: 110px;
+}
+
+.btn-primario {
+    color: #FFFFFF;
+    background-color: hsl(171, 66%, 44%);
+    padding:14px 34px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border-color: hsla(171, 66%, 44%, 0.384);
+}
+
+.btn-secundario {
+    color: #FFFFFF;
+    background-color: hsl(233, 100%, 69%);;
+    padding:14px 34px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
