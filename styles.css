@@ -4,6 +4,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 .titular {
     font-weight: 600;
+    color:#4f5459;
 }
 
 .primario {
@@ -14,16 +15,19 @@ h1, h2, h3, h4, h5, h6, p, a {
     color: hsl(233, 100%, 69%);
 }
 
-.colorTexto {
+/*.colorTexto {
     color: hsl(210, 10%, 33%);
-}
+}*/
 
 .colorTextoDos {
     color:hsl(201, 11%, 66%);
 }
 
 .textoBody {
+    line-height: 1.5;
+    letter-spacing: 1.6;
     font-size: 18px;
+    color:hsl(201, 11%, 66%);
 }
 
 #hero {
@@ -55,6 +59,10 @@ h1, h2, h3, h4, h5, h6, p, a {
     border-color: hsl(233, 100%, 69%);
 }
 
+#two {
+   padding-bottom: 90px;
+}
+
 
 
 @media (max-width: 768px) {
@@ -63,10 +71,10 @@ h1, h2, h3, h4, h5, h6, p, a {
         padding:13px 70px;
     }
 
-    #hero h2 {
+    .textoBody {
         font-size: 17px;
-        line-height: 1.5;
-        letter-spacing: 1.6;
     }
+
+    
 
 }
